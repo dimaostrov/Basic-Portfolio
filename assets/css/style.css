@@ -140,8 +140,7 @@ aside {
 aside {
     width: 270px;
     box-sizing: border-box;
-    
-
+    height: 200px;
 }
 
 .main {
@@ -153,7 +152,16 @@ p {
     color: rgba(0,0,0,0.7);
 }
 
+aside h3 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 24px;
+}
 
+.connect {
+    height: 60px;
+    margin: 5px;
+}
 
 
 
