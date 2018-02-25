@@ -44,10 +44,7 @@ nav {
     height: 80px;
     border-bottom: solid 1px gray;
     background-color: white;
-    margin: 1px;
-    padding: 1px;
     z-index: 3;
-    display: flex;
 }
 
 section,
@@ -58,15 +55,17 @@ header {
     margin: auto;
 }
 
-header div h1{
+header div h1 {
     background-color: #4aaaa5;
     color: white;
-    padding: 27px;
+    margin-top: 7px;
+    padding: 18px;
+    box-sizing: border-box;
     display: inline;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-    vertical-align: middle;
+    position: fixed;
 }
 
 a {
@@ -98,21 +97,27 @@ hr {
 
 /* classes */
 .nav-links {
-    font-size: 24px;
-    margin: 15px;
-    display: inline;
+    font-size: 20px;
+    top: 30px;
+    margin: 10px;
     float: right;
+    position: relative;
+    color: grey;
+    font-family: sans-serif;
 }
 
-.nav-links:nth-of-type(2nd) {
-    border-right: thin solid black;
-    border-left: thin solid black;
+li:nth-of-type(2n) .nav-links {
+    border-right: solid 2px rgba(0,0,0,0.3);;
+    border-left: solid 2px rgba(0,0,0,0.3);;
+    display: inline;
+    padding: 0 10px;
 }
 
 .profile {
     height: 200px;
     float: left;
 }
+
 
 .connect {
     height: 80px;
