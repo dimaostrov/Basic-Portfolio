@@ -140,7 +140,7 @@ aside {
 aside {
     width: 270px;
     box-sizing: border-box;
-    height: 200px;
+    height: 180px;
 }
 
 .main {
@@ -161,6 +161,37 @@ aside h3 {
 .connect {
     height: 60px;
     margin: 5px;
+}
+
+form label {
+    font-size: 24px;
+    color: grey;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 6px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    vertical-align: middle;
+    outline: none;
+    border: 0; 
 }
 
 
