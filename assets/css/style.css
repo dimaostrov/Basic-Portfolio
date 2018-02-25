@@ -66,6 +66,13 @@ header div h1 {
     position: fixed;
 }
 
+.main h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4aaaa5;
+
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -78,16 +85,16 @@ ul {
 
 hr {
     border: 0;
-    height: 1px;
+    height: 5px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
 }
 
 /* id */
 
 #view {
     width: 960px;
-    margin: auto;
+    margin: 120px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -105,8 +112,8 @@ hr {
 }
 
 li:nth-of-type(2n) .nav-links {
-    border-right: solid 2px rgba(0,0,0,0.3);;
-    border-left: solid 2px rgba(0,0,0,0.3);;
+    border-right: solid 2px rgba(0,0,0,0.3);
+    border-left: solid 2px rgba(0,0,0,0.3);
     display: inline;
     padding: 0 10px;
 }
@@ -114,6 +121,7 @@ li:nth-of-type(2n) .nav-links {
 .profile {
     height: 200px;
     float: left;
+    margin: 0 15px 15px 0;
 }
 
 
@@ -126,6 +134,7 @@ aside {
     background: white;
     border: solid gainsboro 1px;
     position: static;
+    padding: 30px;
 }
 
 aside {
@@ -138,8 +147,10 @@ aside {
 .main {
     width: 650px;
     box-sizing: border-box;
-    
+}
 
+p {
+    color: rgba(0,0,0,0.7);
 }
 
 
