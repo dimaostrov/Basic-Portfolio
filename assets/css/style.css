@@ -5,6 +5,14 @@ html {
     width: 100%;    
 }
 
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 body {
     margin: 0;
     width: 100%;
@@ -17,7 +25,7 @@ body {
 }
 
 footer {
-    background-color: #666;
+    background-color: #666666;
     color: white;
     position: fixed;
     bottom: 0;
@@ -40,8 +48,8 @@ nav {
     top: 0;
     width: 100%;
     height: 80px;
-    border-bottom: solid 1px gray;
-    background-color: white;
+    border-bottom: solid 1px #dddddd;
+    background-color: #ffffff;
     z-index: 3;
 }
 
@@ -86,7 +94,7 @@ ul {
 hr {
     border: 0;
     height: 5px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
     border-bottom: 4px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -131,8 +139,8 @@ li:nth-of-type(2n) .nav-links {
 
 .main,
 aside {
-    background: white;
-    border: solid gainsboro 1px;
+    background: #ffffff;
+    border: solid #dddddd 1px;
     position: static;
     padding: 30px;
 }
@@ -147,6 +155,44 @@ aside {
     width: 650px;
     box-sizing: border-box;
 }
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}   
+
+.pftitle {
+    position: relative;
+    text-align: center;
+    
+}
+
+.pftext {
+    position: absolute;
+    top: 162px;
+    width: 100%;
+    height: 50px;
+    background: #4aaaa5;
+    font-size: 24px;
+}
+
+.pftext p {
+    padding-top: 10px;
+    color: white;
+    vertical-align: middle;
+}
+
+.pftitle img {
+    width: 270px;
+    height: 200px;
+    margin: 15px 0;
+    border: solid 1px lightgray;
+
+}
+
+
 
 p {
     color: rgba(0,0,0,0.7);
